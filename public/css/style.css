@@ -1,0 +1,30 @@
+.custom-btn-outline {
+    border: 2px solid #ff7a57;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-outline:hover {
+    background-color: #ff7a57;
+    color: #fff;
+}
+
+.custom-btn-outline:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.custom-hire-me-btn {
+    background-color: #ff7a57; /* Custom color for "HIRE ME" button */
+    color: #fff;
+}
+
+.custom-hire-me-btn:hover {
+    background-color: #ff7a57;
+    color: #fff;
+}
