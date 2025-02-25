@@ -330,21 +330,49 @@
                         <h6 class="subname text-center mb-4 d-flex">Get In Touch</h6>
                         <div class="form-group">
                             <input type="email" class="form-control mb-3" id="email" aria-describedby="emailHelp"
-                                   placeholder="Enter email" required>
+                                placeholder="Enter email" required>
                             <input type="text" class="form-control mb-3" id="subject" placeholder="Subject" required>
                             <textarea name="contact-message" id="" cols="30" rows="5" class="form-control mb-3"
-                                      placeholder="Message"></textarea>
+                                placeholder="Message"></textarea>
                             <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
                         </div>
                     </div>
                     <div class="col-md-6 d-none d-md-block">
-                        <div class="contact-info">
-                            <h6>Address</h6>
-                            <p>1234 Street Name, City Name, United States</p>
-                            <h6>Email</h6>
+                        <div class="contact-infos">
+                            <div class="item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="">
+                                    <h5>Location</h5>
+                                    <p>Kathmandu, Baneshwor</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div>
+                                    <h5>Phone Number</h5>
+                                    <p>9813292607</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="mb-0">
+                                    <h5>Email Address</h5>
+                                    <p>saugatsharma610@gmail.com</p>
+                                </div>
+                            </div>
+                            <hr>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.927695649269!2d85.34187897517052!3d27.688629526317307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19fcbc0cf8d3%3A0x1bb24a5d1d11c12d!2sNakshatra%20Techno%20Hub%20Pvt%20Ltd!5e0!3m2!1sen!2snp!4v1738647373539!5m2!1sen!2snp"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </div>
 </section>
